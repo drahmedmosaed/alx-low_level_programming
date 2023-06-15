@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - it print exact word
- * Returns: 0
+ * Return: 0
  */
 int main(void)
 {
