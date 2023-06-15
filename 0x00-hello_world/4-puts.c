@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints the word given exactly followed by a new line
- * return 0
+ * Return: 0.
  */
 int main(void)
 {
