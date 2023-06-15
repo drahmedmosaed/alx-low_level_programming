@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main ()
 {
-     char word[]='"Programming is like building a multilingual puzzle';
+     char word[]="\"Programming is like building a multilingual puzzle";
      puts(word);	 
-     return 0
+     return 0;
 }
