@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha: bdn el tenneen
+ * _isalpha -  bdn el tenneen
  * @c: bdan el bdan
  * Return: 0-1
  */
