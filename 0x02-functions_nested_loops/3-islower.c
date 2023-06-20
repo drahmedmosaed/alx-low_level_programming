@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * int _islower - aho donya
+ * _islower - aho donya
+ * @c: bdan
  * Return: 1-0
  */
 int _islower(int c)
