@@ -5,12 +5,13 @@
  */
 int main(void)
 {
-	char dodo[] = "_putchar"
+	int i;
+	char dodo[] = "_putchar";
 
-	for (i = 0 ; i <= 8 ; i++)
+	for (i = 0 ; i <= 7 ; i++)
 	{
 		_putchar(dodo[i]);
 	};
-	_putchar("\n");
+	_putchar('\n');
 	return (0);
 }
