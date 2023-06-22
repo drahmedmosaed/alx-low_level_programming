@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * print_diagonal - hello
- * n@: number of numbers
+ * @n: number of numbers
  * Return: void
  */
 void print_diagonal(int n)
 {
-	if ( n <= 0)
+	if (n <= 0)
 	{
 		_putchar('\n');
 	}
@@ -14,11 +14,11 @@ void print_diagonal(int n)
 	{
 	int s;
 
-	for (s = 0 ; s <= n ; s++)
+	for (s = 0 ; s < n ; s++)
 	{
 		int r;
 
-		for (r = 0 ; r <= s ; r++)
+		for (r = 0 ; r < s ; r++)
 		{
 			_putchar(' ');
 		}
