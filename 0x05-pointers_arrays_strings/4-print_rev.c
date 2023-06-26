@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * print_rev - hello
  * @s: string
@@ -8,7 +7,8 @@
 void print_rev(char *s)
 {
 	int i, o, len;
-
+	
+	i = 0;
 	
 	while (s[i] != '\0')
 	{
