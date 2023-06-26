@@ -17,10 +17,12 @@ while (s[i] != '\0')
 
 len = i;
 r = 0;
+char f[len];
 
 for (o = len - 1 ; o >= 0 ; o--)
 {
-	temp[o] = s[r];
+	temp[o] = f[r];
 	r++;
 }
+s = f;
 }
