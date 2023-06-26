@@ -14,13 +14,13 @@ while (s[len] != '\0')
 {
 	len++;
 }
-char temp;
 int r, x;
 
 x = 0;
 
 for (r = len - 1; r >= 0 ; r--)
 {
+	char temp;
 	temp = s[x];
 	s[r] = s[x];
 	temp = s[r];
