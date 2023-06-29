@@ -10,9 +10,9 @@ char *cap_string(char *s)
 
 	int i, y;
 
-	for (i == 0 ; s[i] != '\0' ; i++)
+	for (i = 0 ; s[i] != '\0' ; i++)
 	{
-		if ( i == 0 && s[i] >= 'a' && s[i] <= 'z')
+		if (i = 0 && s[i] >= 'a' && s[i] <= 'z')
 		{
 			s[i] = s[i] - 32;
 		}
@@ -20,7 +20,7 @@ char *cap_string(char *s)
 		{
 			if (s[i] == sep[y])
 			{
-				if ( s[i + 1] >= 'a' && s[i + 1] <= 'z')
+				if  (s[i + 1] >= 'a' && s[i + 1] <= 'z')
 				{
 					s[i + 1] = s[i + 1] - 32;
 				}
