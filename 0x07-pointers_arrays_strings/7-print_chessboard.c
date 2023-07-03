@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 /**
  * print_chessboard - print_chessboard -
  * @a: size
