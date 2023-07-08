@@ -3,7 +3,7 @@
 /**
  * main - multiply
  * @argc: count
- * argv: value
+ * @argv: value
  * Return: 0
  */
 int main(int argc, char *argv[])
