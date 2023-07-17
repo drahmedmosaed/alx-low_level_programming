@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
-*main - prints the name of
-*the file it was compiled 
-*Return: nothing to be returned
+*main -tttyujjnjn
+*Return: nothing
 */
-
 int main(void)
 {
 printf("%s\n", __FILE__);
