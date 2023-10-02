@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - copy from to 
+ * main - copy from to
  * @argc: arguments
  * @argv: array of arguments
  * Return: Always 0 ( means success)
