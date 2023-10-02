@@ -9,7 +9,8 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int file_descriptor, write_result, len = 0;
+	int o, w, len = 0;
+
 	if (filename == NULL)
 		return (-1);
 	if (text_content != NULL)
@@ -17,12 +18,11 @@ int create_file(const char *filename, char *text_content)
 		for (len = 0; text_content[len];)
 			len++;
 	}
-	
-	file_descriptor = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
-	write_result = write(file_descriptor, text_content, len);
+	o = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
+	w = write(o, text_content, len);
 
-	if (file_descriptor == -1 || write_result == -1)
+	if (o == -1 || w == -1)
 		return (-1);
-	cose(file_descriptor);
+	close(o);
 	return (1);
 }
